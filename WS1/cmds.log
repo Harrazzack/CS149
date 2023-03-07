@@ -1,0 +1,148 @@
+    1  sudo apt update 
+    2  sudo apt install ubuntu-desktop 
+    3  sudo reboot 
+    4  f ff 
+    5  sudo apt install spice-vdagent spice-webdavd
+    6  sudo apt install spice-vdagent spice-webdavd -y
+    7  reboot 
+    8  /usr/bin/firefox
+    9  ls 
+   10  cd Documents 
+   11  ls
+   12  ls -latr
+   13  cd ..
+   14  cd desktop 
+   15  cd Desktop 
+   16  ls
+   17  mkdir CS149
+   18  cd CS149
+   19  git init 
+   20  git remote add origin https://github.com/Harrazzack/CS149.git
+   21  mkdir WS1
+   22  ls
+   23  git 
+   24  git status 
+   25  git add 
+   26  git add WS!
+   27  git add WS1
+   28  git commit -m "made first directory"
+   29  git config -global user.email "haroon.razzack@sjsu.edu"
+   30  git config --global user.email "haroon.razzack@sjsu.edu"
+   31  git status 
+   32  git add .
+   33  git branch
+   34  git 
+   35  git branch 
+   36  git commit -m "first file made" 
+   37  ls
+   38  git add WS1 
+   39  git status 
+   40  git add 
+   41  git add .
+   42  git grep
+   43  git man
+   44  gi t
+   45  git 
+   46  git statis
+   47  git status
+   48  git clone -b master https://github.com/Harrazzack/CS149.git
+   49  git clone https://github.com/Harrazzack/CS149.git
+   50  ls 
+   51  git 
+   52  git branch
+   53  git -b master
+   54  git checkout -b master 
+   55  ls 
+   56  ls
+   57  cd CS149/
+   58  ls
+   59  mkdir WS1 
+   60  ls
+   61  git status 
+   62  git add .
+   63  git status
+   64  cd ..
+   65  ls
+   66  wget -O out.pdf https://tinyurl.com/yy94jltt
+   67  ls latr 
+   68  ls -latr 
+   69  ls
+   70  nano out.pdf
+   71  cd .. 
+   72  ls
+   73  rm -r CS149/
+   74  rm -rf CS149/
+   75  ls
+   76  mkdir cs149
+   77  cd cs149/
+   78  git init 
+   79  git remote add origin https://github.com/Harrazzack/CS149.git
+   80  ls
+   81  mkdir WS1
+   82  cd WS1/
+   83  ls
+   84  git add .
+   85  git statis 
+   86  git status 
+   87  git aff 
+   88  git add 
+   89  git add .
+   90  wget -O out.pdf https://tinyurl.com/yy94jltt
+   91  history 
+   92  cd ..
+   93  history > cmds.log 
+   94  ls
+   95  ./cmds.log 
+   96  cmds.log 
+   97  head cmds.log 
+   98  cd cs149/
+   99  ls
+  100  cd WS1/
+  101  ls
+  102  cd desktop
+  103  ls
+  104  cd Desktop/
+  105  ls
+  106  cd cs149/
+  107  ls
+  108  cd WS1/
+  109  ls
+  110  git 
+  111  git status 
+  112  ls
+  113  cd .. 
+  114  cd ..
+  115  ls
+  116  cd cs149/
+  117  ls
+  118  git remote add origin https://github.com/yourlogin/cs149.git
+  119  git config --global user.email "haroon.razzack@sjsu.edu"
+  120  git config --global user.name "harrazzack"
+  121  ls
+  122  status 
+  123  cd WS1/
+  124  ls
+  125  git add .
+  126  git status 
+  127  ls -latr
+  128  history > cmds.log
+  129  git commit -m "First Commit"
+  130  git branch
+  131  git push -u origin master
+  132  ls
+  133  mk helloworld.c 
+  134  nano 1.15.c
+  135  ls
+  136  nano 1.16.c
+  137  nano 1.15.c
+  138  nano 1.17.c
+  139  nano 1.18.c
+  140  nano 1.19.c
+  141  nano 1.20.c
+  142  nano 1.19.c
+  143  nano 1.18.c
+  144  nano 1.17.c
+  145  nano 1.16.c
+  146  nano 1.15.c
+  147  ls
+  148  history > cmds.log
