@@ -1,3 +1,15 @@
+/**
+ *
+ * Description: Program that builds off of countnames in Assignment 1. Adds fork,
+ * pipe, and waiting, to read multiple files, while passing them through pipe to parent.
+ * Authors: Haroon Razzack and Vincent Nguyen
+ * Author emails: haroon.razzack@sjsu.edu and vincent.n.nguyen@sjsu.edu
+ * Last modified date: 03-06-2023
+ * Creation date: 03-02-2023
+ */
+
+
+
 #include <stdio.h>
 #include <string.h>
 #include <unistd.h>
