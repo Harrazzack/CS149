@@ -1,0 +1,16 @@
+ 2206  PYTHONUNBUFFERED=1 node run.js 
+ 2207  git checkout -b hrazzack/APP-18
+ 2208  ls
+ 2209  git branch
+ 2210  ls
+ 2211  cd code_file
+ 2212  cd apue.3e
+ 2213  ls
+ 2214  cd signals
+ 2215  ls
+ 2216  make all 
+ 2217  ./sigusr &
+ 2218  kill -SIGUSR1 87913
+ 2219  kill -SIGUSR2 87913
+ 2220  kill -SIGCONT 87913
+ 2221  kill -9 87913
