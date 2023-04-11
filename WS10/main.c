@@ -2,10 +2,10 @@
  * Description: Program that takes in an input string as an item name,
  * its integer price and quantity, and then ouputs the total price.
  * This is accomplished using structs.
- * Authors: Haroon, Razzack
+ * Authors: Haroon Razzack
  * Author emails: haroon.razzack@sjsu.edu
- * Last modified date: 04-03-2023
- * Creation date: 03-27-2023
+ * Last modified date: 04-10-2023
+ * Creation date: 04-9-2023
  */
 #include <stdio.h>
 #include "ItemToPurchase.h"
