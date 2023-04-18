@@ -1,7 +1,7 @@
 /**
  * Description: Takes in and Phone number of 3 persons
  * and then outputs a contacts list and each person's info.
- * Author emails: haroon.razzack@sjsu.edu and vincent.n.nguyen@sjsu.edu
+ * Author emails: haroon.razzack@sjsu.edu
  * Last modified date: 04-18-2023
  * Creation date: 04-17-2023
  */
