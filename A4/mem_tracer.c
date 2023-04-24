@@ -132,6 +132,9 @@ char *PRINT_TRACE()
 void *REALLOC(void *p, int t, char *file, int line)
 {
     p = realloc(p, t);
+    printf("File %s, line %d, function ", file, line);
+    PRINT_TRACE();
+    printf("reallocated the memory segment at address %p to a new size %d\n", p, t);
     return p;
 }
 
@@ -146,6 +149,9 @@ void *MALLOC(int t, char *file, int line)
 {
     void *p;
     p = malloc(t);
+    printf("File %s, line %d, function ", file, line);
+    PRINT_TRACE();
+    printf("allocated new memory segment at address %p to size %d\n", p, t);
     return p;
 }
 
@@ -158,6 +164,9 @@ void *MALLOC(int t, char *file, int line)
 // Information about the function F should be printed by printing the stack (use PRINT_TRACE)
 void FREE(void *p, char *file, int line)
 {
+    printf("File %s, line %d, function ", file, line);
+    PRINT_TRACE();
+    printf("deallocated the memory segment at address %p\n", p);
     free(p);
 }
 
