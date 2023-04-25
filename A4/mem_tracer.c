@@ -148,8 +148,7 @@ void *REALLOC(void *p, int t, char *file, int line)
 // Information about the function F should be printed by printing the stack (use PRINT_TRACE)
 void *MALLOC(int t, char *file, int line)
 {
-    void *p;
-    p = malloc(t);
+    void *p = malloc(t);
     fprintf(stdout, "File %s, line %d, function %s allocated new memory segment at address %p to size %d\n", file, line, PRINT_TRACE(), p, t);
     return p;
 }
