@@ -1,3 +1,15 @@
+/**
+ * Description: Program that defines a hash table to store the process id,
+ * start time, end time, index, and command of each process that is run.
+ * The main function reads commands from stdin, forks a new process for each command,
+ * creates output and error files for each command, and executes the command using execvp.
+ * The parent process adds the new process to the hash table using the insert function and
+ * waits for the child process to finish before adding the end time to the corresponding node in the hash table.
+ * Author: Haroon Razzack
+ * Author emails: haroon.razzack@sjsu.edu
+ * Last modified date: 05-04-2023
+ * Creation date: 04-27-2023
+ */
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -8,38 +20,6 @@
 #include <fcntl.h>
 
 #define MAXLINE 4096
-/**
-* The reason for using a hashtable is to store the commands in
-hash slots by their pids.
-* This way you can lookup a command by a pid and retrieve all the
-info you need:
-* command, index (this index means the line number in the text
-file you read),
-* start time, and anything else you might need.
-* A hashtable (as you might remember from CS146)
-* has slots and each slot contains a linked list of nodes
-* (these are the entries that contain all the command info).
-* Thus the hashtable (see hashtab array variable below) is
-* implemented as an array of nlists. Each array position is a
-* slot and a linked list of nlist nodes starts at each array
-slot.
-* Each array position is a hahstable slot.
-* You find the hashtable slot for a pid by using a hash function,
-* which will map the pid to a hashtable slot (array position).
-*
-* You can copy this entire code directly in your .c code. No need
-to have
-* many files.
-* This nlist is a node, which stores one command's info in the
-hashtable.
-*
-* The char *name and char *defn you can remove.
-* The nlist *next field is a pointer to the next node in the
-linked list.
-* There is one hashtable slot in each array position,
-* consequently there is one linked list of nlists under a
-hashtable slot.
-*/
 struct nlist
 {                       /* table entry: */
     struct nlist *next; /* next entry in chain */
